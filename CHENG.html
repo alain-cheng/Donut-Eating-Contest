@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Donut Eating Contest</title>
+        <link rel="stylesheet" href="/style/index.css">
+	</head>
+	<body onmousedown="return false" onselectstart="return false">
+		<div id="container-score">
+			<div id="time-text">TIMER</div>
+			<div id="score-text">SCORE: 0</div>
+		</div>
+
+		<div id="container-ui">
+			<button id="btn-play">PLAY</button>
+			<button id="btn-switch">SWITCH</button>
+			<button id="btn-leaderboard">LEADERBOARD</button>
+		</div>
+
+		<div id="container-progress">
+			<div id="progress-text">EATEN 0%</div>
+			<div id="progress-bar">&nbsp;</div>
+		</div>
+
+		<div id="container-leaderboard">
+			<button id="btn-close-leaderboard">X</button>
+			<div id="container-leaderboard-records">
+				<!-- Child elements will be appended here by main.js -->
+			</div>
+		</div>
+
+		<script type="module" src="/main.js"></script>
+	</body>
+</html>

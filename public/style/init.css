@@ -1,0 +1,14 @@
+body {
+    position: fixed;
+    margin: auto;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, 0%);
+    text-align: center;
+}
+
+#button-app {
+    font-size: 50px;
+    border-radius: 15px;
+    padding: auto;
+}
